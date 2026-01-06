@@ -29,3 +29,11 @@ It allows adding, viewing, searching, updating, and deleting student results in 
 ```sql
 CREATE DATABASE resultdb;
 USE resultdb;
+
+CREATE TABLE student_result (
+    roll INT PRIMARY KEY,
+    name VARCHAR(50),
+    marks INT,
+    grade VARCHAR(2)
+);
+
